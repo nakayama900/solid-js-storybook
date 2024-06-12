@@ -12,18 +12,28 @@
   },
   "license": "MIT",
   "devDependencies": {
-    "@babel/core": "^7.16.7",
-    "@storybook/addon-actions": "^6.4.12",
-    "@storybook/addon-essentials": "^6.4.12",
-    "@storybook/addon-links": "^6.4.12",
-    "@storybook/html": "^6.4.12",
-    "babel-loader": "^8.2.3",
-    "babel-preset-solid": "^1.3.2",
-    "typescript": "^4.5.4",
-    "vite": "^2.7.10",
-    "vite-plugin-solid": "^2.2.1"
+    "@babel/core": "^7.24.7",
+    "@storybook/addon-actions": "^8.1.6",
+    "@storybook/addon-essentials": "^8.1.6",
+    "@storybook/addon-links": "^8.1.6",
+    "@storybook/html": "^8.1.6",
+    "babel-loader": "^9.1.3",
+    "babel-preset-solid": "^1.8.17",
+    "typescript": "^5.4.5",
+    "vite": "^5.2.13",
+    "vite-plugin-solid": "^2.10.2"
   },
   "dependencies": {
-    "solid-js": "^1.3.2"
+    "solid-js": "^1.8.17"
+  },
+  "pnpm": {
+    "overrides": {
+      "trim@<0.0.3": ">=0.0.3",
+      "postcss@<8.4.31": ">=8.4.31",
+      "glob-parent@<5.1.2": ">=5.1.2",
+      "trim-newlines@<3.0.1": ">=3.0.1",
+      "webpack-dev-middleware@<=5.3.3": ">=5.3.4",
+      "braces@<3.0.3": ">=3.0.3"
+    }
   }
 }
